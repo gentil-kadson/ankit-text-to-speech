@@ -19,7 +19,7 @@ const openAi = new OpenAI({
 
 app.post(
   "/api/speech",
-  (req, res) => {
+  (req, res, next) => {
     const authHeader = req.headers["x-extension-secret"];
 
     if (authHeader !== process.env.EXTENSION_SECRET)
