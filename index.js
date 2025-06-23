@@ -5,7 +5,7 @@ import { OpenAI } from "openai";
 
 dotenv.config();
 const CORS_CONFIG = {
-  origin: "chrome-extension://folnobifihdhhmoiciceclgemiibfeaf",
+  origin: "chrome-extension://kacmllkenbjhpciloiajjoiafnimbepl",
   methods: ["POST"],
 };
 
